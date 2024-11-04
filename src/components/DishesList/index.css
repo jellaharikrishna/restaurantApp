@@ -1,0 +1,114 @@
+.menulist-li {
+  border: 1px solid #c9c9d1;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px #adaeba;
+}
+
+.dish-details-card {
+  display: flex;
+  align-items: flex-start;
+  max-width: 200px;
+}
+@media screen and (min-width: 586px) {
+  .dish-details-card {
+    min-width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dish-details-card {
+    min-width: 400px;
+  }
+}
+.veg-nonveg-icon {
+  margin: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.dishname {
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.dishprice {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #434544;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.dishdescription {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #adaeba;
+  margin: 5px;
+}
+.addtocart-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.addtocart-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.addtocart-count {
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+}
+
+.notavailable {
+  font-family: Roboto;
+  font-size: 12px;
+  color: red;
+  margin: 5px;
+}
+
+.customizationsname {
+  font-family: Roboto;
+  font-size: 12px;
+  color: blue;
+  margin: 5px;
+}
+
+.calories {
+  font-family: Roboto;
+  font-size: 16px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dish-image {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .dish-image {
+    height: 140px;
+    width: 140px;
+  }
+}
