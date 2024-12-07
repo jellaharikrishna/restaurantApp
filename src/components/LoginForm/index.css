@@ -113,3 +113,11 @@
   line-height: 16px;
   color: #ff0b37;
 }
+
+.user-login-details {
+  align-self: start;
+  font-family: Roboto;
+  font-size: 10px;
+  margin-bottom: 0;
+  color: #464746;
+}

@@ -48,7 +48,7 @@ class Home extends Component {
     </div>
   )
 
-  /*onIncrease = () => {
+  /* onIncrease = () => {
     this.setState(prev => ({count: prev.count + 1}))
   }
 
@@ -110,10 +110,7 @@ class Home extends Component {
         </div>
         <ul className="dish-items-containers">
           {updatedDishesArray.map(each => (
-            <DishItem
-              dish={each}
-              key={each.dishId}
-            />
+            <DishItem dish={each} key={each.dishId} />
           ))}
         </ul>
       </>
@@ -140,7 +137,6 @@ class Home extends Component {
 }
 
 export default Home
-
 
 /*
               count={count}

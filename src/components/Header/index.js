@@ -26,7 +26,11 @@ const Header = props => {
             <div className="nav-items">
               <p className="my-order-txt">My Orders</p>
               <Link to="/cart" className="link">
-                <button type="button" className="cart-icon-btn" data-testid="cart">
+                <button
+                  type="button"
+                  className="cart-icon-btn"
+                  data-testid="cart"
+                >
                   <IoCartOutline className="cart-icon" />
                   <span className="cart-count">{cartList.length}</span>
                 </button>
